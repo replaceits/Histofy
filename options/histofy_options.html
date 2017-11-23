@@ -3,11 +3,52 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<script src="histofy_options.js"></script>
 	</head>
 
 	<body>
-
 		<form>
+			<h4>Types</h4>
+
+			<div class="form-control">
+				<input type="checkbox" id="typeSocialMedia" name="typeSocialMedia" value="typeSocialMedia">
+				<label for="typeSocialMedia">Social Media</label>
+			</div>
+			<div class="form-control">
+				<input type="checkbox" id="typeShopping" name="typeShopping" value="typeShopping">
+				<label for="typeShopping">Shopping</label>
+			</div>
+			<div class="form-control">
+				<input type="checkbox" id="typeBanking" name="typeBanking" value="typeBanking">
+				<label for="typeBanking">Banking</label>
+			</div>
+			<div class="form-control">
+				<input type="checkbox" id="typeGaming" name="typeGaming" value="typeGaming">
+				<label for="typeGaming">Gaming</label>
+			</div>
+			<div class="form-control">
+				<input type="checkbox" id="typeFood" name="typeFood" value="typeFood">
+				<label for="typeFood">Food</label>
+			</div>
+			<div class="form-control">
+				<input type="checkbox" id="typeAutomobiles" name="typeAutomobiles" value="typeAutomobiles">
+				<label for="typeAutomobiles">Automobiles</label>
+			</div>
+			<div class="form-control">
+				<input type="checkbox" id="typeMusic" name="typeMusic" value="typeMusic">
+				<label for="typeMusic">Music</label>
+			</div>
+
+			<hr>
+
+			<h4>Misc</h4>
+
+			<div class="form-control">
+				<label for="startDate">Start Date</label>
+				<input type="date" id="startDate" name="startDate">
+				<label for="endDate">End Date</label>
+				<input type="date" id="endDate" name="endDate">
+			</div>
 			<div class="form-control">
 				<input type="checkbox" id="clearExistingHistory" name="clearExistingHistory" value="clearExistingHistory">
 				<label for="clearExistingHistory">Clear existing history</label>
@@ -19,9 +60,6 @@
 				<button type="submit">Generate History</button>
 			</div>
 		</form>
-
-		<script src="histofy_options.js"></script>
-
 	</body>
 
 </html>
