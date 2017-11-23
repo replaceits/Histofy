@@ -1,0 +1,37 @@
+{
+
+	"manifest_version": 2,
+	"name": "Histofy",
+	"version": "1.0",
+
+	"description": " WebExtension to generate fake browser history",
+	"homepage_url": "https://github.com/replaceits/Histofy",
+
+	"author": "Sidney Williams",
+
+	"developer": {
+		"name": "Sidney Williams",
+		"url": "https://www.replaceits.me"
+	},
+
+	"icons": {
+		"48": "icons/border-48.png"
+	},
+
+	"permissions": [
+		"history",
+		"storage"
+	],
+
+	"browser_action": {
+		"browser_style": true,
+		"default_icon": "icons/border-48.png",
+		"default_title": "Histofy",
+		"default_popup": "popup/histofy_popup.html"
+	},
+
+	"options_ui": {
+		"page": "options/histofy_options.html"
+	}
+
+}
