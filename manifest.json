@@ -32,6 +32,10 @@
 
 	"options_ui": {
 		"page": "options/histofy_options.html"
-	}
+	},
+
+	"web_accessible_resources": [
+		"data/history_data.json"
+	]
 
 }

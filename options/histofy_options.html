@@ -8,6 +8,28 @@
 
 	<body>
 		<form>
+			<h4>Dynamic Data</h4>
+
+			<div class="form-control">
+				<label for="dynamicUserName">User Name</label>
+				&nbsp;
+				<input type="text" id="dynamicUserName" name="dynamicUserName">
+			</div>
+			<br>
+			<div class="form-control">
+				<label for="dynamicFirstName">First Name</label>
+				&nbsp;
+				<input type="text" id="dynamicFirstName" name="dynamicFirstName">
+			</div>
+			<br>
+			<div class="form-control">
+				<label for="dynamicLastName">Last Name</label>
+				&nbsp;
+				<input type="text" id="dynamicLastName" name="dynamicLastName">
+			</div>
+
+			<hr>
+
 			<h4>Types</h4>
 
 			<div class="form-control">
@@ -46,12 +68,39 @@
 			<div class="form-control">
 				<label for="startDate">Start Date</label>
 				<input type="date" id="startDate" name="startDate">
+				&nbsp;
 				<label for="endDate">End Date</label>
 				<input type="date" id="endDate" name="endDate">
 			</div>
+			<br>
+			<div class="form-control">
+				<label for="startTime">Usage Start Time</label>
+				<input type="time" id="startTime" name="startTime">
+				&nbsp;
+				<label for="endTime">Usage End Time</label>
+				<input type="time" id="endTime" name="endTime">
+			</div>
+			<br>
 			<div class="form-control">
 				<input type="checkbox" id="clearExistingHistory" name="clearExistingHistory" value="clearExistingHistory">
 				<label for="clearExistingHistory">Clear existing history</label>
+			</div>
+
+			<hr>
+
+			<h4>Amount Of History To Generate</h4>
+
+			<div class="form-control">
+				<label for="amountNum">Amount</label>
+				&nbsp;
+				<input type="number" id="amountNum" name="amountNum">
+			</div>
+			<br>
+			<div class="form-control">
+				<input type="radio" id="amountTotalRadio" name="amountPer">
+				<label for="amountTotalRadio">Total</label>
+				<input type="radio" id="amountPerDayRadio" name="amountPer">
+				<label for="amountPerDayRadio">Per Day</label>
 			</div>
 
 			<hr>

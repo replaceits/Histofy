@@ -1,0 +1,121 @@
+{
+    "typeAutomobiles": {
+        "static": [
+
+        ],
+        "dynamic": [
+
+        ]
+    },
+
+    "typeBanking": {
+        "static": [
+            
+        ],
+        "dynamic": [
+
+        ]
+    },
+
+    "typeFood": {
+        "static": [
+            
+        ],
+        "dynamic": [
+
+        ]
+    },
+
+    "typeGaming": {
+        "static": [
+            
+        ],
+        "dynamic": [
+            {
+                "url": "http://steamcommunity.com/id/^<u>^/",
+                "title": "Steam Community :: ^<u>^",
+                "frequency": 4
+            }
+        ]
+    },
+    
+    "typeMusic": {
+        "static": [
+            
+        ],
+        "dynamic": [
+
+        ]
+    },
+
+    "typeShopping": {
+        "static": [
+
+        ],
+        "dynamic": [
+
+        ]
+    },
+    
+    "typeSocialMedia": {
+        "static": [
+            {
+                "url": "https://www.facebook.com/",
+                "title": "Facebook",
+                "frequency": 8
+            },
+            {
+                "url": "https://www.facebook.com/settings",
+                "title": "General Account Settings",
+                "frequency": 2
+            },
+            {
+                "url": "https://www.reddit.com/",
+                "title": "reddit: the front page of the internet",
+                "frequency": 8
+            },
+            {
+                "url": "https://www.linkedin.com/",
+                "title": "LinkedIn: Log In or Sign Up",
+                "frequency": 2
+            },
+            {
+                "url": "https://www.linkedin.com/check/manage-account",
+                "title": "LinkedIn",
+                "frequency": 1
+            },
+            {
+                "url": "https://www.linkedin.com/hp/",
+                "title": "LinkedIn",
+                "frequency": 1
+            }
+        ],
+        "dynamic": [
+            {
+                "url": "https://www.facebook.com/^<u>^",
+                "title": "^<n>^",
+                "frequency": 6
+            },
+            {
+                "url": "https://www.facebook.com/^<u>^/allactivity?privacy_source=activity_log_top_menu",
+                "title": "^<n>^",
+                "frequency": 2
+            },
+            {
+                "url": "https://www.reddit.com/user/^<u>^/",
+                "title": "overview for ^<u>^",
+                "frequency": 5
+            },
+            {
+                "url": "https://www.linkedin.com/in/^<f>^-^<l>^-^<x8>^",
+                "title": "^<n>^ | Professional Profile",
+                "frequency": 3
+            },
+            {
+                "url": "https://www.linkedin.com/feed/",
+                "title": "(^<x1>^) LinkedIn",
+                "frequency": 4
+            }
+        ]
+    }
+}
