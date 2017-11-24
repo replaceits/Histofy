@@ -57,6 +57,8 @@ function restoreOptions() {
 
 	// Restore checkboxes & radios
 	browser.storage.local.get({
+		// Dynamic Data
+		useDynamicData: true,
 		// Types
 		typeSocialMedia: true,
 		typeShopping: true,
@@ -235,15 +237,24 @@ function generateHistory(e) {
 						JSONData[types].static.forEach((item) => {
 							staticData.push(item);
 						});
-						JSONData[types].dynamic.forEach((item) => {
-							dynamicData.push(item);
-						});
+						if (items.useDynamicData) {
+							JSONData[types].dynamic.forEach((item) => {
+								dynamicData.push(item);
+							});
+						}
 					}
 				}
 
-				fillDynamicValues(dynamicData, items.dynamicUserName, items.dynamicFirstName, items.dynamicLastName);
+				let historyData;
 
-				const historyData = staticData.concat(dynamicData);
+				if (items.useDynamicData) {
+					fillDynamicValues(dynamicData, items.dynamicUserName, items.dynamicFirstName, items.dynamicLastName);
+					historyData = staticData.concat(dynamicData);
+				} else {
+					historyData = staticData;
+				}
+
+				
 
 				if (items['clearExistingHistory']) {
 					browser.history.deleteAll(() => {
