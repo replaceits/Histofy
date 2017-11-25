@@ -28,9 +28,38 @@
 
     "typeGaming": {
         "static": [
-            
+            {
+                "url": "http://store.steampowered.com/",
+                "title": "Welcome to Steam",
+                "frequency": 5
+            },
+            {
+                "url": "https://store.steampowered.com/login/",
+                "title": "Login",
+                "frequency": 4
+            },
+            {
+                "url": "http://store.steampowered.com/genre/Free%20to%20Play/",
+                "title": "Free To Play Games on Steam",
+                "frequency": 1
+            },
+            {
+                "url": "http://steamcommunity.com/market/",
+                "title": "Steam Community :: Steam Community Market",
+                "frequency": 3
+            },
+            {
+                "url": "https://www.humblebundle.com/",
+                "title": "Humble Bundle",
+                "frequency": 5
+            }
         ],
         "dynamic": [
+            {
+                "url": "http://store.steampowered.com/search/?sort_by=Reviews_DESC&category1=^<x3>^&filter=ut2",
+                "title": "Steam Search",
+                "frequency": 4
+            },
             {
                 "url": "http://steamcommunity.com/id/^<u>^/",
                 "title": "Steam Community :: ^<u>^",

@@ -7,9 +7,35 @@
   </head>
 
   <body>
-    <div id="popup-content">
-    </div>
+    <form>
+      <div class="form-control">
+        <img src="../icons/histofy-96.png" alt="Histofy" height="96" width="96">
+        <h1>Histofy</h1>
+      </div>
+      <div class="form-control">
+        <label for="amountNum">Amount</label>
+        &nbsp;
+        <input type="number" id="amountNum" name="amountNum" min="0">
+      </div>
+      <div class="form-control">
+        <div class="radio-input">
+          <input type="radio" id="amountTotalRadio" name="amountPer">
+          <label for="amountTotalRadio">Total</label>
+        </div>
+        <div class="radio-input">
+          <input type="radio" id="amountPerDayRadio" name="amountPer">
+          <label for="amountPerDayRadio">Per Day</label>
+        </div>
+      </div>
+      <div class="form-control">
+        <button type="submit">Generate History</button>
+      </div>
+
+      <div class="form-control">
+        <a href="javascript:void(0);" id="advancedOptions">Advanced Options</a>
+      </div>
+    </form>
+    <script src="../javascript/functions.js"></script>
     <script src="histofy_popup.js"></script>
   </body>
-
 </html>
